@@ -157,7 +157,7 @@ threading.Thread(target=export_points_loop, daemon=True).start()
 twitch_miner.mine([
         Streamer("shayph"),
         Streamer("sirdapper"),
-        Streamer("copieburger"),
+        Streamer("waffletrades_"),
     ],
     followers=False,
     followers_order=FollowersOrder.ASC
